@@ -1,0 +1,8 @@
+spring:
+  application.name: hdd
+
+info:
+  name: ${spring.application.name}
+  version: ${project.version}
+  build: ${project.version}.${buildNumber}
+  description: ${project.description}

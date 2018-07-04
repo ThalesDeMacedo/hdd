@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://applicationUser:pass@localhost:27017/b2w
+
+application:
+  swapi:
+    url: https://swapi.co/api/planets/
+
+caching:
+  name:
+    planets-all: planets-all
+    planets-id: planets-id
+    planets-name: planets-name
+    planets-swapi: planets-swapi
